@@ -146,6 +146,51 @@ public class TestStdDraw {
         
         StdDraw.filledSquare(0.0375, 0.9875, 0.0125);
         StdDraw.filledSquare(0.0875, 0.9875, 0.0125);
+        
+        StdDraw.setPenRadius(0.015);
+        StdDraw.line(0.65, 0.6, 0.65, 1);
+        StdDraw.line(0.65, 0.0, 0.65, 0.4);
+        
+        StdDraw.setPenRadius(0.005);
+        //top lines
+        StdDraw.line(0.65, 0.63, 1, 0.63);
+        StdDraw.line(0.65, 0.70, 1, 0.70);
+        
+        
+        //bottom lines
+        StdDraw.line(0.65, 0.37, 1, 0.37);
+        StdDraw.line(0.65, 0.30, 1, 0.30);
+       
+        //arrows on top 
+        StdDraw.line(0.75, 0.65, 0.75, 0.68);
+        StdDraw.line(0.75, .68, 0.73, 0.67);
+        StdDraw.line(0.75, .68, 0.77, 0.67);
+        
+        StdDraw.line(0.9, 0.65, 0.9, 0.68);
+        StdDraw.line(0.9, .68, 0.88, 0.67);
+        StdDraw.line(0.9, .68, 0.92, 0.67);
+        
+        //arrows on bottom
+        StdDraw.line(0.75, 0.35, 0.75, 0.32);
+        StdDraw.line(0.75, .32, 0.73, 0.33);
+        StdDraw.line(0.75, .32, 0.77, 0.33);
+        
+        StdDraw.line(0.9, 0.35, 0.9, 0.32);
+        StdDraw.line(0.9, .32, 0.88, 0.33);
+        StdDraw.line(0.9, .32, 0.92, 0.33);
+        
+        //goal
+        StdDraw.setPenColor(StdDraw.RED);
+        StdDraw.circle(0.82, 0.85, 0.03);
+        StdDraw.setPenColor(StdDraw.BLACK);
+        StdDraw.line(0.82, 0.85, 0.82, 0.92);
+        StdDraw.setPenColor(StdDraw.RED);
+        StdDraw.line(0.82, 0.92, 0.85, 0.92);
+        StdDraw.line(0.82, 0.95, 0.85, 0.92);
+        StdDraw.line(0.82, 0.92, 0.82, 0.95);
+
+
     }
+	
 }
 
