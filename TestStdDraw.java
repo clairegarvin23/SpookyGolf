@@ -142,6 +142,6 @@ public class TestStdDraw {
         StdDraw.filledSquare(0.1125, 0.9625, 0.0125);
         
         StdDraw.filledSquare(0.0375, 0.9875, 0.0125);
-        StdDraw.filledSquare(0.0875, 0.98  75, 0.0125);
+        StdDraw.filledSquare(0.0875, 0.9875, 0.0125);
     }
 }
