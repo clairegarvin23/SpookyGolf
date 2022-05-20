@@ -1,7 +1,10 @@
-*// method to draw squares for start line*/
+*// method to draw squares for start line, set background to green*/
 
 public class TestStdDraw {
 	public static void main(String[] args) {
+		StdDraw.clear(StdDraw.GREEN);
+		StdDraw.setPenColor(StdDraw.WHITE);
+		StdDraw.filledRectangle(0.0625, 0.5, 0.0625, 0.5);
         StdDraw.setPenRadius(0.001);
         StdDraw.setPenColor(StdDraw.BLACK);
         StdDraw.filledSquare(0.0125, 0.0125, 0.0125);
@@ -145,3 +148,4 @@ public class TestStdDraw {
         StdDraw.filledSquare(0.0875, 0.9875, 0.0125);
     }
 }
+
